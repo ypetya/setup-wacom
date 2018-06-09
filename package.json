@@ -1,0 +1,39 @@
+{
+  "name": "setup-wacom",
+  "version": "0.0.1",
+  "description": "command line tool to load wacom profile on linux",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "debug": "node --inspect-brk index.js",
+    "watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ypetya/setup-wacom.git"
+  },
+  "keywords": [
+    "wacom",
+    "wrapper",
+    "xsetwacom",
+    "linux",
+    "preset",
+    "profile",
+    "config",
+    "setup",
+    "intuos",
+    "tablet"
+  ],
+  "author": "Peter Kiss <ypetya@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ypetya/setup-wacom/issues"
+  },
+  "homepage": "https://github.com/ypetya/setup-wacom#readme",
+  "dependencies": {
+    "chainprocess": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
